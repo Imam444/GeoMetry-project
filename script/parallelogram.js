@@ -19,7 +19,7 @@ function calculateParallelogramArea(){
     console.log('area of parallelogram is:',area)
 
     // display Parallelogram 
-    const parallelogramareaSpan = document.getElementById('parallelogram-area');
-    parallelogramareaSpan.innerText =area;
+    const parallelogramAreaSpan = document.getElementById('parallelogram-area');
+    parallelogramAreaSpan.innerText =area;
      
 }

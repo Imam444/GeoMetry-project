@@ -112,18 +112,27 @@
                       </div>
                     </div>
                  </div>
-                 <!-- Triangle card -->
+                 <!-- Pentagon card -->
                  <div class="card bg-base-100 w-96 shadow-xl">
                     <figure>
                       <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        src="/images/pentagon.png"
                         alt="Shoes" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h2 class="card-title">pentagon!</h2>
+                      <p>Area = 0.5 X p X b</p>
+                      <div class="flex">
+                        <input class="text-2xl w-24 p-2 rounded-sm"  id="pentagon-perimeter" type="text" placeholder="p">
+                        <span class="mr-4 ml-2">cm</span>
+                        <input type="text" class="text-2xl w-24 rounded-sm" id="pentagon-base" placeholder="b">
+                        <span class="mr-4 ml-4">cm</span>
+                      </div>
+                      <div>
+                        <p class="text-2xl">Area:<span id="pentagon-area">0</span></p>
+                      </div>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                  </div>
@@ -136,7 +145,8 @@
     </main>
     <script src="script/rectangle.js" ></script>
     <script src="script/triangle.js"></script>
-    <script src="parallelogram.js"></script>
-    <script src="rhombus.js"> </script>
+    <script src="script/parallelogram.js"></script>
+    <script src="script/rhombus.js"> </script>
+    <script  src="script/pentaon.js" ></script>
 </body>
 </html>
